@@ -1,4 +1,5 @@
 === Sniglets ===
+
 Contributors: Scott Fleming
 Tags: sniglets, sample plugin work
 Requires at least: 3.0
