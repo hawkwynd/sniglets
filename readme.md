@@ -9,6 +9,8 @@ Installation
 
 1. Upload the plugin files to the `/wp-content/plugins/sniglets directory.
 2. Activate the plugin through the 'Plugins' screen in WordPress
-3. Under the Sniglets menu you an list sniglets, and remove the ones you don't want
+3. Under the Sniglets menu you can list all the sniglets, and remove the ones you don't want
    which are installed by default.
-4. Add New Sniglet allows you to create your own sniglets for use in your website
+4. Add New Sniglet allows you to create your own sniglets for use in your website.
+5. Have fun, and enjoy life
+
