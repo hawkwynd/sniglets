@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Sniglets
-Plugin URI: http://www.musiccityguru.com/sniglets/sniglet_edit.php
+Plugin URI: https://github.com/hawkwynd/sniglets
 Description: Displays a random sniglet on your page. Add new sniglets, remove unwanted sniglets. Installs with 10 sniglets, more available all over the internet, or write your own sniglets!
-Author: Scott Fleming
-Version: 1.0 (Beta)
-Author URI: mailto:scott.s.fleming@gmail.com
+Author: Scott Fleming scott.s.fleming@gmail.com
+Version: 1.0
+Author URI: https://github.com/hawkwynd/sniglets
 
 {Plugin Name} is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
