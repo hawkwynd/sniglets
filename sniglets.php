@@ -23,8 +23,6 @@ add_action('activate_sniglets/sniglets.php', 'sniglets_install');
 add_action('admin_menu', 'sniglets_options_panel');
 
 // add menu actions
-//add_action('admin_menu', 'sniglets_admin_actions');
-
 add_action('admin_post_sniglets_form', 'process_sniglets_form');
 add_action('sniglets_edit.php', 'sniglets_edit');
 
@@ -87,7 +85,7 @@ function process_sniglets_form(){
         $wpdb->insert($table, array(
                        sniglet_term         => $_POST['sniglet_term'],
                        sniglet_phonetics    => $_POST['sniglet_phonetics'],
-                       sniglet_type         =>  $_POST['sniglet_type'],
+                       sniglet_type         => $_POST['sniglet_type'],
                        sniglet_definition   => $_POST['sniglet_definition']
         ));
 
