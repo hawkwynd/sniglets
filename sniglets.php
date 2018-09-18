@@ -23,7 +23,8 @@ add_action('activate_sniglets/sniglets.php', 'sniglets_install');
 add_action('admin_menu', 'sniglets_options_panel');
 
 // add menu actions
-add_action('admin_menu', 'sniglets_admin_actions');
+//add_action('admin_menu', 'sniglets_admin_actions');
+
 add_action('admin_post_sniglets_form', 'process_sniglets_form');
 add_action('sniglets_edit.php', 'sniglets_edit');
 
@@ -33,7 +34,7 @@ function sniglets_options_panel(){
                   'Sniglets',
                   'manage_options',
                   'sniglets-options',
-                  'sniglets_options');
+                  'sniglets_menu');
 
     add_submenu_page('sniglets-options',
         'Sniglets',

@@ -21,7 +21,7 @@ define('SNIGLET_DATE', 'Date added: ');
     $results = $wpdb->get_results("select * from $table ORDER by sniglet_id desc");
 
     foreach($results as $result){
-        echo "<div class='sniglet'><a href='http://wordpress.zbox/wp-admin/admin.php?page=sniglets_edit&sniglet_id=".$result->sniglet_id . "&action=delete'>[X]</a> ";
+        echo "<div class='sniglet'><a href='/wp-admin/admin.php?page=sniglets_edit&sniglet_id=".$result->sniglet_id . "&action=delete'>[X]</a> ";
         echo "<strong>". $result->sniglet_term . "</strong> <i>".
                          $result->sniglet_phonetics ."</i> (" . $result->sniglet_type . ")<br/>" .
                          $result->sniglet_definition . "<br/>" .
