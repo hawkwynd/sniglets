@@ -120,7 +120,7 @@ function sniglets_install(){
 
     $table = $wpdb->prefix."sniglets";
     $structure = "CREATE TABLE IF NOT EXISTS $table (
-                  sniglet_id int(11) NOT NULL,
+                  sniglet_id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
                   sniglet_term varchar(255) COLLATE utf8_unicode_ci NOT NULL,
                   sniglet_phonetics varchar(255) COLLATE utf8_unicode_ci NOT NULL,
                   sniglet_type varchar(255) COLLATE utf8_unicode_ci NOT NULL,
