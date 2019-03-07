@@ -83,10 +83,10 @@ function process_sniglets_form(){
 
         $table = $wpdb->prefix."sniglets";
         $wpdb->insert($table, array(
-                       sniglet_term         => $_POST['sniglet_term'],
-                       sniglet_phonetics    => $_POST['sniglet_phonetics'],
-                       sniglet_type         => $_POST['sniglet_type'],
-                       sniglet_definition   => $_POST['sniglet_definition']
+                       'sniglet_term'         => $_POST['sniglet_term'],
+                       'sniglet_phonetics'    => $_POST['sniglet_phonetics'],
+                       'sniglet_type'         => $_POST['sniglet_type'],
+                       'sniglet_definition'   => $_POST['sniglet_definition']
         ));
 
         wp_redirect(admin_url('admin.php?page=sniglets-options'));
